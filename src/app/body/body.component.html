@@ -1,75 +1,79 @@
 <br>
 <div class="row" style="margin-left: 5%; margin-right: 5%; margin-top: 2%;">
-    <div class="col-md-8">
+    <div class="col-sm-8">
         <h2>styleXstyle TV Episode 46: Fragrance of Love</h2>
         <hr size="8" color="black">
-        <img src="../../assets/la.jpg" alt="los angeles" width="780" height="500">
+        <img src="../../assets/la.jpg" alt="los angeles">
     </div>
-    <div class="col">
-        <img src="../../assets/img.png" alt="" width="300" height="280">
-        <img src="../../assets/img.png" alt="" width="300" height="290">
+    <div class="col-sm">
+        <img src="../../assets/frag1.jpg" alt="" style="margin-top: 5%;">
+        <img src="../../assets/frag2.jpg" alt="" style="margin-top: 5%;">
     </div>
 </div>
 <br>
 <i class="align">Go Lunar New Year shopping with Sharon Au!</i>
 
 <div class="row" style="margin-left: 5%; margin-right: 5%; margin-top: 2%;">
-    <div class="col-md-8">
-        <h2>TRENDING LOOKS</h2>
+    <div class="col-sm-8">
+        <h2 style="margin-top: 5%;">TRENDING LOOKS</h2>
 
         <hr size="8" color="black">
         <div class="row">
-            <div class="col-md">
-                <img src="../../assets/img.png" alt="" height="300" width="370">
+            <div class="col-sm">
+                <img src="../../assets/tl1.jpg" alt="">
             </div>
-            <div class="col-md">
-                <img src="../../assets/img.png" alt="" height="300" width="370">
+            <div class="col-sm">
+                <img src="../../assets/tl2.jpg" alt="">
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-md">
-                <img src="../../assets/img.png" alt="" height="300" width="370">
+            <div class="col-sm">
+                <img src="../../assets/tl3.jpg" alt="">
             </div>
-            <div class="col-md">
-                <img src="../../assets/img.png" alt="" height="300" width="370">
+            <div class="col-sm">
+                <img src="../../assets/tl4.jpg" alt="">
             </div>
         </div>
 
         <br>
-        <h2>LATEST STORIES</h2>
+        <h2 style="margin-top: 5%;">LATEST STORIES</h2>
         <hr size="8" color="black">
-        <br>
-        <h6 style="color: gray;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
+        
+        <h6 style="color: gray; margin-top: 8%;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
         <h3>Auspicious Dates To Start Work In The New Lunar Year</h3>
         <p>Fengshui master Joey Yap reveals when's the best day for your annual zodiac to start work in the year of the Fire Rooster. &nbsp; <i style="color: gray;">By Style Weddings</i></p>
-        <img src="../../assets/la.jpg" alt="los angeles" style="border: 4px solid black;" width="780" height="500">
+        <!-- <img src="../../assets/la.jpg" alt="los angeles" style="border: 4px solid black;" width="780" height="500"> -->
+        <img src="../../assets/la.jpg" alt="los angeles" style="border: 4px solid black;">
 
-        <br><br><br>
-        <h6 style="color: gray;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
+        
+        <h6 style="color: gray; margin-top: 8%;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
         <h3>Useful Tips To Walking Down the Aisle with your Dog</h3>
         <p>I woof you &nbsp; <i style="color: gray;">By Chermaine Ng</i></p>
-        <img src="../../assets/chicago.jpg" alt="los angeles" style="border: 4px solid black;" width="780" height="500">
+        <img src="../../assets/chicago.jpg" alt="los angeles" style="border: 4px solid black;">
 
-        <br><br><br>
-        <h6 style="color: gray;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
+        
+        <h6 style="color: gray; margin-top: 8%;">23 JANUARY 2017 | STYLEWEDDINGS</h6>
         <h3>8 Hipster Wedding Venues in Singapore</h3>
         <p>You won't find any hotel function rooms here &nbsp; <i style="color: gray;">By Chelsea Tan</i></p>
-        <img src="../../assets/ny.jpg" alt="los angeles" style="border: 4px solid black;" width="780" height="500">
+        <img src="../../assets/ny.jpg" alt="los angeles" style="border: 4px solid black;">
     </div>
 
-    <div class="col">
-        <img src="../../assets/img.png" alt="" width="300" height="280">
+    <div class="col-sm">
+        <!-- <img src="../../assets/img.png" alt="" width="300" height="280"> -->
+        <img src="../../assets/tl5.jpg" alt="">
         <br><br>
         <div class="row">
-            <p style="text-align: center; margin-left: 30%; margin-top: 5%;">Get them now<br/><b>SHOP</b></p>
-            <div *ngFor="let item of [].constructor(5); let i = index">
+            <p style="text-align: center; margin-left: 40%; margin-top: 5%;">Get them now<br/><b>SHOP</b></p>
+            <div *ngFor="let item of [].constructor(4); let i = index;">
                 <div class="row" style="margin-left: 20px;">
-                    <div class="col-md">
-                        <img src="../../assets/img.png" alt="" height="100" width="120">
+                    <div class="col-sm">
+                        <!-- <img src="../../assets/img.png" alt="" height="100" width="120"> -->
+                        <img src="../../assets/tli{{ i }}.jpg" alt="">
                     </div>
-                    <div class="col-md">
-                        <img src="../../assets/img.png" alt="" height="100" width="120">
+                    <div class="col-sm">
+                        <!-- <img src="../../assets/img.png" alt="" height="100" width="120"> -->
+                        <img src="../../assets/tli{{ i }}.jpg" alt="">
                     </div>
                 </div>
                 <br>
@@ -78,23 +82,48 @@
 
 
         <div class="row">
-            <h3 style="margin-left: 20%; margin-top: 5%;">DON'T MISS</h3>
-            <div class="row" *ngFor="let item of [].constructor(5); let i=index" style="text-overflow: ellipsis; overflow: hidden;">
+            <h3 style="margin-left: 30%; margin-top: 5%;">DON'T MISS</h3>
+            <!-- <div class="row" *ngFor="let item of [].constructor(6); let i=index" style="text-overflow: ellipsis; overflow: hidden;">
                 <img src="../../assets/img.png" alt="" style="margin-left: 40px; width: 300px; height: 250px;">
+                <img src="../../assets/dm{{ i }}.jpg" alt="" style="margin-left: 30px;">
                 <br>
-                <div style="margin-left: 50px; margin-right: 60px; width:300px ; height: 50px; text-overflow: ellipsis; overflow: hidden;"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae saepe quia accusantium quas pariatur beatae nam laborum, delectus neque.</a></div>
+                <p style="margin-left: 30px; width: auto ;height: 20px; text-overflow: ellipsis; overflow: hidden;"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae saepe quia accusantium quas pariatur beatae nam laborum, delectus neque.</a></p>
                 <br><br>
-            </div>
+            </div> -->
+            <div class="card" *ngFor="let item of [].constructor(4); let i=index" style="width: auto;">
+                <img class="card-img-top" src="../../assets/dm{{ i }}.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a href=""><p class="card-text" style="text-overflow: ellipsis; overflow: hidden; height: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nemo temporibus quod, amet numquam sapiente incidunt corporis odio magnam illo!</p></a>
+                </div>
+              </div>
+              <!-- <div class="card" style="width: auto;">
+                <img class="card-img-top" src="../../assets/dm2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a href=""><p class="card-text" style="text-overflow: ellipsis; overflow: hidden; height: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nemo temporibus quod, amet numquam sapiente incidunt corporis odio magnam illo!</p></a>
+                </div>
+              </div>
+              <div class="card" style="width: auto;">
+                <img class="card-img-top" src="../../assets/dm3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a href=""><p class="card-text" style="text-overflow: ellipsis; overflow: hidden; height: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nemo temporibus quod, amet numquam sapiente incidunt corporis odio magnam illo!</p></a>
+                </div>
+              </div>
+              <div class="card" style="width: auto;">
+                <img class="card-img-top" src="../../assets/dm4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a href=""><p class="card-text" style="text-overflow: ellipsis; overflow: hidden; height: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nemo temporibus quod, amet numquam sapiente incidunt corporis odio magnam illo!</p></a>
+                </div>
+              </div> -->
         </div>
 
-            <div class="row" style="margin-left: 40%; margin-top: 50px;" > 
-                <div class="col">
+            <div class="row" style="margin-left: 40%; margin-top: 20px;" > 
+                <div class="col-sm">
                     <i> Stay </i>
                 </div>
                 
             </div>
             <div class="row" style="margin-left: 25%">
-                <div class="col">
+                <div class="col-sm">
                     <h4>CONNECTED</h4>
                 </div>
             </div>
@@ -117,12 +146,13 @@
     </div>
 </div>
 
-<div style="margin-left: 5%; margin-right: 5%; margin-top: 10%;">
+<div style="margin-left: 5%; margin-right: 5%; margin-top: 5%;">
     <h4>Instagram</h4>
     <br>
     <div class="row" *ngFor="let item of [].constructor(2); let i=index " style="margin-top: .5%;">
-        <div class="col-md" *ngFor="let item of [].constructor(5); let i=index ">
-            <img src="../../assets/img.png" alt="" height="150" width="200">
+        <div class="col-sm" *ngFor="let item of [].constructor(5); let j=index ">
+            <!-- <img src="../../assets/img.png" alt="" height="150" width="200"> -->
+            <img src="../../assets/in{{ i }}{{ j }}.jpg" alt="">
         </div>
     </div>
 </div>
